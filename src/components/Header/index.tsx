@@ -3,10 +3,10 @@ import * as S from './styles'
 
 import cesta from '../../assets/cesta.png'
 import { paraReal } from '../Produto'
-import { RootState } from '../../store'
+import { RootReducer } from '../../store'
 
 const Header = () => {
-  const itens = useSelector((state: RootState) => state.carrinho.itens)
+  const itens = useSelector((state: RootReducer) => state.carrinho.itens)
 
   const valorTotal = itens.reduce((acc: number, item: { preco: number }) => {
     acc += item.preco

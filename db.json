@@ -44,7 +44,15 @@
       "preco": 349.90,
       "categoria": "Ação",
       "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202207/2509/85p2Dwh5iDhUzRKe40QeNYh3.png?w=440&thumb=false"
+    },
+    {
+      "id": 6,
+      "titulo": "Elden Ring",
+      "plataformas": ["PS5", "Xbox Series S/X", "Windows"],
+      "precoAntigo": 299,
+      "preco": 249.90,
+      "categoria": "RPG",
+      "imagem": "https://a.imagem.app/BHvZQ3.jpeg"
     }
-
   ]
 }
